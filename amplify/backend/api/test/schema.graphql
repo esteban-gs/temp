@@ -1,0 +1,7 @@
+type Profile @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  profileName: String!
+  linkedInProfile: String!
+  LinkedInImage: String!
+  Location: String!
+}
