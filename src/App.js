@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { HomeLayout, ProfileContent, ProfileLayout } from "./ui-components";
+import { ProfileLayout } from "./ui-components";
 
 function App() {
   const [profileName, setProfileName] = useState("");
